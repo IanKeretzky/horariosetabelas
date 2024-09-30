@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tabelas em html</title>
+<style>
+table{
+    border: 1px #000000 solid;
+    width: 50%;
+    margin:auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td{
+    border: 3px #198b8b solid;
+}
+th{
+    background-color: #f16ceb;
+}
+</style>
+</head>
+
+
+<body>
+    
+
+    <table>
+        <caption>Horarios de aula da turma EM1MA 3º Bimestre
+        </caption> 
+        <thead>
+            <tr>
+                <th>Horarios</th>
+                <th >Segunda</th>
+                <th >Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>07:15-08:05</td>
+                <td>Matemática</td>
+                <td >Religião</td>
+                <td rowspan="2px">Química</td>
+                <td rowspan="2px">Física</td>
+                <td>Artes</td>
+            </tr>
+                
+            <tr>
+                <td>08:05-08:55</td>
+                <td >Geografia</td>
+                <td rowspan="2px">Biologia</td>
+                <td>Religião</td>
+            </tr>
+            <tr>
+            <td >08:55-09:45</td>
+            <td>Historia</td>
+            <td>Historia</td>
+            <td rowspan="2px">Redação</td>
+            <td>Português</td>
+            </tr>
+            <tr>
+                <td>10:00-10:50</td>
+                <td>Projeto de Vida</td>
+                <td>Literatura</td>
+                <td>Ed. Física</td>
+                <td>Geografia</td>
+
+            </tr>
+            <tr>
+                <td>10:50-11:40</td>
+                <td>Física</td>
+                <td>Ed. Física</td>
+                <td colspan="2px">Matemática</td>
+                <td>Inglês</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>11:40-12:30</td>
+                <td>Química</td>
+                <td>Inglês</td>
+                <td>Religião</td>
+                <td>Bíologia</td>
+                <td>Português</td>
+            </tr>
+            </tfoot>
+    </table>
+</body>
+</html>
